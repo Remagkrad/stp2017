@@ -267,7 +267,7 @@ h1 {font-family: 'Source Sans Pro', sans-serif; font-weight: normal; font-style:
 
 .sidebox a {color: rgb(164, 39, 143);}
 
-#decorative1 {position: relative; background-color: rgb(240, 240, 240); background-image: url(bright-lights-big-city.jpg); -webkit-background-size: cover; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat no-repeat;
+#decorative1 {position: relative; background-color: rgb(240, 240, 240); background-image: url(navbar.jpg); -webkit-background-size: cover; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat no-repeat;
 -webkit-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.7);
 -moz-box-shadow:    0px 3px 11px rgba(0, 0, 0, 0.7);
 box-shadow:         0px 3px 11px rgba(0, 0, 0, 0.7);}
@@ -340,17 +340,24 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'So
 
 .navbar .dropdown-menu li > a, .dropdown-menu li > a, .navbar .nav-pills .open .dropdown-toggle {color: rgb(255, 255, 255);}
 
-.navbar .dropdown-menu li > a:hover, .navbar .dropdown-menu .active > a, .navbar .dropdown-menu .active > a:hover, .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a, .navbar .nav-pills .open a.dropdown-toggle:hover {filter:none;color:rgb(255, 255, 255);background-color:rgb(176, 42, 154);background-image:none}
+.navbar .dropdown-menu li > a:hover, .navbar .dropdown-menu .active > a, .navbar .dropdown-menu .active > a:hover, .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a, .navbar .nav-pills .open a.dropdown-toggle:hover {filter:none;color:rgb(255, 255, 255);background-color:rgb(176, 42, 154)background-image:none;}
 
 .navbar .nav-pills > li > a {margin-left: 2px; margin-right: 2px; padding: 35px; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; color: rgb(255, 255, 255); border-bottom-style: none;}
 
-.navbar .nav-pills > li > a:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle, .navbar .nav-pills > li > a:focus {color: rgb(255, 255, 255); background-color: rgb(176, 42, 154); border-bottom-style: none;}
+.navbar .nav-pills > li > a:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle{color: rgb(255, 255, 255); background-color: rgb(176, 42, 154); border-bottom-style: none;}
 
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle {background:none}
+.navbar .nav-pills > li > a:focus {color: rgb(255, 255, 255);}
 
-.navbar .nav-pills > .active > a, .navbar .nav-pills > .active > a:hover, .navbar .nav-pills li.dropdown.open > .dropdown-toggle, .navbar .nav-pills li.dropdown.active > .dropdown-toggle {color: rgb(255, 255, 255); background-color: rgb(176, 42, 154); border-bottom-style: none;}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle {background:none;}
 
-.navbar .ddmenu {margin-top:-2px;margin-bottom:0px}
+.navbar .nav-pills li.dropdown.open > .dropdown-toggle, .navbar .nav-pills li.dropdown.active > .dropdown-toggle {color: rgb(255, 255, 255); background-color: rgb(176, 42, 154); border-bottom-style: none;}
+
+.navbar .nav-pills li a:hover, .navbar .nav-pills li.active a {
+    color: #ffffff !important;
+    background-color: #B02A9A !important;
+}
+
+.navbar .ddmenu {margin-top:-2px;margin-bottom:0px;}
 
 .navbar .nav-pills li.dropdown > .dropdown-toggle .caret, .navbar .nav-pills li.dropdown.open > .dropdown-toggle .caret, .navbar .nav-pills li.dropdown.active > .dropdown-toggle .caret, .navbar .nav-pills li.dropdown.open.active > .dropdown-toggle .caret {border-top-color:rgb(255, 255, 255);border-bottom-color:rgb(255, 255, 255);}
 
