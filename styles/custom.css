@@ -91,9 +91,19 @@ margin-right:7px;margin-bottom:7px;float:left;
 
 .logo-small {
      color: rgb(176, 42, 154);
+    font-size: 40px;
+}       
+.top-button {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
     font-size: 50px;
 }       
-        
+             
 .bg-grey {background-color: #f6f6f6;
 }        
 .col-sm-4 {
