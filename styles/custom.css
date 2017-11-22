@@ -85,7 +85,21 @@ margin-right:7px;margin-bottom:7px;float:left;
 
 [class*="general foundicon-"]:before {font-family: "GeneralFoundicons";}
 
+.logo {font-size: 200px;
+       color: rgb(176, 42, 154);
+       }
+
+.logo-small {
+     color: rgb(176, 42, 154);
+    font-size: 50px;
+}       
         
+.bg-grey {background-color: #f6f6f6;
+}        
+.col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
 /* Menu Side */
 
 .menu_menu_simple ul {margin-top:0px;margin-bottom:0px;}
