@@ -6,8 +6,8 @@
 	display: block;
 }
 .list_carousel li {
-	margin: 10px;
-    height:150px;
+	margin: 40px;
+    height: 320px;
 	display: block;
 	float: left;
 }
